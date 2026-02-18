@@ -1,0 +1,60 @@
+# ======================
+# Conda / Virtual envs
+# ======================
+.env
+.venv
+venv/
+env/
+conda/
+miniconda*/
+anaconda*/
+*.conda
+*.env
+
+# ======================
+# Python cache / build
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+
+# ======================
+# Jupyter / IPython
+# ======================
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# ======================
+# Data / outputs
+# ======================
+data/
+datasets/
+outputs/
+results/
+logs/
+*.log
+
+# ======================
+# OS / editor junk
+# ======================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ======================
+# Secrets
+# ======================
+.env
+*.key
+*.pem
+secrets.yaml
